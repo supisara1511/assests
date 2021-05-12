@@ -1,0 +1,55 @@
+@import "./../abstracts/fuctions";
+$theme: (
+    menu-bar: (
+        bg-color: linear-gradient(180deg, #0581f6 0, #0fb3e6),
+        bg-icon-color: transparent,
+        bg-icon-color-active: #0573be,
+        icon-color: color(white),
+        icon-color-active: color(white),
+        drop-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5),
+    ),
+    nav-bar: (
+        bg-color: color(white),
+        text-color: color(black),
+    ),
+    header-bar: (
+        bg-color: linear-gradient(90deg, #0581f6 0, #0fb3e6),
+        icon-color: color(white),
+        text-color: color(white),
+    ),
+    button: (
+        text-primary: color(white),
+        text-primary-hover: color(white),
+        text-primary-disable: color(white),
+        bg-primary: color(bluetiful),
+        bg-primary-hover: color(cobalt),
+        bg-primary-disable: #f5f5f5,
+        line-primary: 1px solid color(bluetiful),
+        line-primary-hover: 1px solid color(cobalt),
+        line-primary-disable: 1px solid #f5f5f5,
+        text-secondary: #333132,
+        text-secondary-hover: color(white),
+        text-secondary-disable: #333132,
+        bg-secondary: #ffc505,
+        bg-secondary-hover: color(cobalt),
+        bg-secondary-disable: #f5f5f5,
+        line-secondary: 1px solid #f5f5f5,
+        line-secondary-hover: 1px solid color(cobalt),
+        line-secondary-disable: 1px solid #f5f5f5,
+        text-light: #454545,
+        text-light-hover: color(white),
+        text-light-disable: #454545,
+        bg-light: color(white),
+        bg-light-hover: color(cobalt),
+        bg-light-disable: color(white),
+        line-light: 1px solid #d9d9d9,
+        line-light-hover: 1px solid color(cobalt),
+        line-light-disable: 1px solid color(white),
+    ),
+    color : (
+        color-primary : color(bluetiful)
+    ),
+    common: (
+        border-line: 1px solid #e2e2e2,
+    ),
+);

@@ -1,0 +1,240 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fiw0df');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fiw0df#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?fiw0df') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?fiw0df') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?fiw0df##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-form-"], [class*=" icon-form-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-form-Checked {
+  &:before {
+    content: $icon-form-Checked;     
+    color: #2acf9f;
+  }
+}
+.icon-form-Dragdrop {
+  &:before {
+    content: $icon-form-Dragdrop; 
+  }
+}
+.icon-form-Duplicate {
+  &:before {
+    content: $icon-form-Duplicate; 
+  }
+}
+.icon-form-Form-Add-Section {
+  &:before {
+    content: $icon-form-Form-Add-Section; 
+  }
+}
+.icon-form-Form-Attachment {
+  &:before {
+    content: $icon-form-Form-Attachment; 
+  }
+}
+.icon-form-Form-Checklist {
+  &:before {
+    content: $icon-form-Form-Checklist; 
+  }
+}
+.icon-form-Form-Date-Picker .path1 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-form-Form-Date-Picker .path2 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-form-Form-Date-Picker .path3 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path3;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path4 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path4;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path5 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path5;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path6 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path6;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path7 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path7;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path8 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path8;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path9 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path9;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path10 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path10;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path11 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path11;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path12 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path12;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path13 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path13;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path14 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path14;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Date-Picker .path15 {
+  &:before {
+    content: $icon-form-Form-Date-Picker-path15;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Multi-Selection {
+  &:before {
+    content: $icon-form-Form-Multi-Selection; 
+  }
+}
+.icon-form-Form-Signature .path1 {
+  &:before {
+    content: $icon-form-Form-Signature-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-form-Form-Signature .path2 {
+  &:before {
+    content: $icon-form-Form-Signature-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-form-Form-Signature .path3 {
+  &:before {
+    content: $icon-form-Form-Signature-path3;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Signature .path4 {
+  &:before {
+    content: $icon-form-Form-Signature-path4;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Single-Selection {
+  &:before {
+    content: $icon-form-Form-Single-Selection; 
+  }
+}
+.icon-form-Form-Text-Area .path1 {
+  &:before {
+    content: $icon-form-Form-Text-Area-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-form-Form-Text-Area .path2 {
+  &:before {
+    content: $icon-form-Form-Text-Area-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-form-Form-Text-Area .path3 {
+  &:before {
+    content: $icon-form-Form-Text-Area-path3;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Text-Area .path4 {
+  &:before {
+    content: $icon-form-Form-Text-Area-path4;  
+    margin-left: -1em;  
+    color: rgb(69, 69, 69);
+  }
+}
+.icon-form-Form-Text-Field {
+  &:before {
+    content: $icon-form-Form-Text-Field; 
+  }
+}
+.icon-form-Uncheck {
+  &:before {
+    content: $icon-form-Uncheck;     
+    color: #cacaca;
+  }
+}
+

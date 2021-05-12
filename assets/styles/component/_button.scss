@@ -1,0 +1,39 @@
+.button {
+    padding: 8px 16px;
+    border-radius: 6px;
+
+
+    &.button-primary {
+        color: themed("button.text-primary");
+        background: themed("button.bg-primary");
+        border: themed("button.line-primary");
+
+        &:hover {
+            color: themed("button.text-primary-hover");
+            background: themed("button.bg-primary-hover");
+            border: themed("button.line-primary-hover");
+        }
+    }
+    &.button-secondary {
+        color: themed("button.text-secondary");
+        background: themed("bg-secondary");
+        border: themed("button.line-secondary");
+
+        &:hover {
+            color: themed("button.text-secondary-hover");
+            background: themed("button.bg-secondary-hover");
+            border: themed("button.line-secondary-hover");
+        }
+    }
+    &.button-light {
+        color: themed("button.text-light");
+        background: themed("button.bg-light");
+        border: themed("button.line-light");
+
+        &:hover {
+            color: themed("button.text-light-hover");
+            background: themed("button.bg-light-hover");
+            border: themed("button.line-light-hover");
+        }
+    }
+}

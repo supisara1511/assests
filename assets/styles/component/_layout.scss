@@ -1,0 +1,48 @@
+.web-layout {
+    .menu-content {
+        position: fixed;
+        width: 80px;
+        max-width: 80px;
+        height: 100%;
+        z-index: 1;
+    }
+    .main-content {
+        position: fixed;
+        left: 80px;
+        right: 0px;
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .main-content-boby {
+            height: inherit;
+            overflow-y: hidden;
+            position: relative;
+            overflow-x: auto;
+
+            .content-layout {
+                display: flex;
+                height: 100%;
+            }
+
+            .content-column {
+                min-width: 300px;
+                overflow: auto;
+                border-right: themed("common.border-line");
+
+                &.content-left,
+                &.content-right {
+                    width: 40%;
+                    min-width: 300px;
+                    max-width: 500px;
+                }
+
+                &.content-main {
+                    width: 100%;
+                    min-width: 600px;
+                }
+            }
+        }
+    }
+}

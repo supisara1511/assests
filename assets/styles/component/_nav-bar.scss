@@ -1,0 +1,44 @@
+.nav-bar {
+    max-height: $heieht-nav-bar;
+    min-height: $heieht-nav-bar;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: themed("nav-bar.bg-color");
+
+    .nav-bar-item {
+        padding: 0px 16px;
+    }
+
+    .nav-bar-setting-option {
+        color: themed("nav-bar.text-color");
+        text-align: right;
+        .nav-bar-name {
+            font-size: 12px;
+            margin: 0;
+        }
+        .nav-bar-company {
+            font-size: 10px;
+            margin: 0;
+        }
+    }
+}
+
+.header-bar {
+    max-height: $heieht-nav-bar-title;
+    min-height: $heieht-nav-bar-title;
+    font-size: 16px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: themed("header-bar.text-color");
+    background: themed("header-bar.bg-color");
+    .header-bar-icon {
+        font-size: 18px;
+        padding-right: 5px;
+        &::before {
+            color: themed("header-bar.icon-color");
+        }
+    }
+}

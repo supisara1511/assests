@@ -1,0 +1,36 @@
+@mixin theme($property, $key, $inlineExtra: null, $postExtra: null) {
+    @each $theme in $themes {
+        $keyMap : --#{$theme}-#{$key};
+        $value: map-get($themeValues, $keyMap);
+        @debug  $keyMap $value;
+        @at-root .#{$theme} #{&} {
+            #{$property}: #{$inlineExtra} #{$value} #{$postExtra};
+            #{$property}: #{$inlineExtra} var($keyMap, #{$value}) #{$postExtra};
+        }
+    }
+}
+
+@mixin generateThemeVariables {
+    @each $key, $val in $themeValues {
+        #{$key}: $val;
+    }
+}
+
+@mixin generateThemeMappings($themeName, $themesComponents) {
+    $themes: append($themes, $themeName, $separator: comma) !global;
+    @include keyMapTheme($themesComponents, $themeName);
+}
+
+@mixin keyMapTheme($map, $keyName) {
+    @if type-of($map) == "map" {
+        @each $key, $value in $map {
+            $key-map-value: "#{$keyName}-#{$key}";
+            @include keyMapTheme($value, $key-map-value);
+        }
+    } @else {
+        $key-map: --#{$keyName};
+        @if not map-has-key($themeValues, $key-map) {
+            $themeValues: map-merge($themeValues, (--#{$keyName}: $map)) !global;
+        }
+    }
+}

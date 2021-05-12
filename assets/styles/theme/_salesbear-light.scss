@@ -1,0 +1,64 @@
+@import "./../abstracts/fuctions";
+$theme: (
+    menu-bar: (
+        bg-color: #ffffff,
+        bg-icon-color: #ffffff,
+        bg-icon-color-active: #fff3cc,
+        icon-color: #b5b5b5,
+        icon-color-active: #ffc505,
+        drop-shadow: 0px 0px 4px rgba(181, 181, 181, 0.5),
+    ),
+    nav-bar: (
+        bg-color: #ffffff,
+        text-color: #000000,
+    ),
+    header-bar: (
+        bg-color: #f4f5f5,
+        icon-color: #ffc505,
+        text-color: #252627,
+    ),
+    button: (
+        // primary
+        text-primary: #ffffff,
+        text-primary-hover: #333132,
+        text-primary-disable: #333132,
+        bg-primary: #ffc505,
+        bg-primary-hover: #ffb700,
+        bg-primary-disable: #f5f5f5,
+        line-primary: 1px solid #f5f5f5,
+        line-primary-hover: 1px solid #ffb700,
+        line-primary-disable: 1px solid #f5f5f5,
+        // secondary
+        text-secondary: #333132,
+        text-secondary-hover: #333132,
+        text-secondary-disable: #333132,
+        bg-secondary: #ffc505,
+        bg-secondary-hover: #ffc505,
+        bg-secondary-disable: #f5f5f5,
+        line-secondary: 1px solid #f5f5f5,
+        line-secondary-hover: 1px solid #f5f5f5,
+        line-secondary-disable: 1px solid #f5f5f5,
+        // light
+        text-light: #454545,
+        text-light-hover: #454545,
+        text-light-disable: #454545,
+        bg-light: #ffffff,
+        bg-light-hover: #ffc505,
+        bg-light-disable: #ffffff,
+        line-light: 1px solid #d9d9d9,
+        line-light-hover: 1px solid #d9d9d9,
+        line-light-disable: 1px solid #ffffff,
+    ),
+    input : (
+        text-color: #1A1A1A,
+        label-color: #646464,
+        border-line: 1px solid #e2e2e2,
+    ),
+    common: (
+        border-line: 1px solid #e2e2e2,
+    ),
+    color: (
+        primary: #ffc505,
+        secondary : #f4f5f5,
+    ),
+);

@@ -1,0 +1,4 @@
+@import './../variable/color';
+@function color($colorName) {
+  @return map-get($colors, $colorName);
+}

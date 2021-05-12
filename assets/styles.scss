@@ -1,0 +1,8 @@
+
+@import './styles/theme/theme';
+@import './styles/main';
+
+@include generateThemeMappings(venio-light,$venio-light);
+@include generateThemeMappings(salesbear-lignt,$salesbear-light);
+@include generateThemeMappings(salesbear-dark,$salesbear-dark);
+html { @include generateThemeVariables }

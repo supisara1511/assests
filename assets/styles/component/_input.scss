@@ -1,0 +1,11 @@
+.input {
+    &.button-primary {
+        color: themed('common.text-light-hover');
+    }
+    &.button-secondary {
+        color: themed('common.text-light');
+    }
+    &.button-e {
+        color: themed('common.text-light-hover');
+    }
+}
